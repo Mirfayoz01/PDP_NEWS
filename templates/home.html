@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+<head>
+    <style>
+        body {
+            font-size: 28px;
+        }
+    
+.section_1 form{
+    background: #fff;
+    border-radius: 80px;
+    padding: 0.6rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.4rem;
+    width: 42%;
+    margin-left: auto;
+    margin-right: auto;
+}        
+        
+.search-btn{
+    width: 40px;
+    font-size: 1.2rem;
+    padding-right: 50px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}        
+        
+
+        .container{
+            padding-top: 50px;
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url("https://i.ibb.co/wL7fZ7v/banner-bg.jpg") center/cover no-repeat fixed;
+            height: 100vh;
+            text-align: center;
+            font-size: 50px;
+        }
+
+        .input_search{
+            font-size: 1.2rem;
+            width: 550px;
+            height: 50px;
+            border-radius: 50px;
+            outline: none;
+            padding: 0.6rem 0;
+            border: none;
+        }
+
+        h3{
+
+        }
+
+        .header {
+            margin-left: 100px;
+        }
+
+        ul {
+            list-style-type: none;
+            max-width: 2000px;
+            width: 1111px;
+            margin-left: 400px;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            position: -webkit-sticky; /* Safari */
+            position: absolute;
+            top: 0;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #2649e8;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h2>PDP News</h2>
+</div>
+
+<ul>
+    <li><a class="active" href=".">Home</a></li>
+    <li><a href="news">News</a></li>
+    <li><a href="contact">Contact</a></li>
+</ul>
+
+<section class="section_1">
+    <div class="container">
+        <h3>Welcome to home page</h3>
+        <h5>if you click contact you can write subject</h5>
+        
+        <form>
+            <input type="text", placeholder="Search...", class="input_search">
+                <button class="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+        </form>
+    </div>
+</section>
+
+</body>
+</html>
